@@ -2,6 +2,12 @@
   "name": "vapurrmaid",
   "version": "1.0.0",
   "description": "Vapurrmaid.ca website.",
+  "keywords": [],
+  "homepage": "https://vapurrmaid.ca",
+  "bugs": {
+    "url": "https://github.com/vapurrmaid/vapurrmaid.github.io",
+    "email": "vapurrmaid@pm.me"
+  },
   "license": "UNLICENSED",
   "author": {
     "name": "Gregory Barkans",
@@ -17,12 +23,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
+    "autoprefixer": "^9.6.1",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
     "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
-    "postcss-cli": "^6.1.2"
+    "postcss-cli": "^6.1.3"
   },
   "private": true
 }
