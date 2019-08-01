@@ -1,14 +1,17 @@
 # [Vapurrmaid.ca][1]
 
-My shameless website. Currently I'm using it as a base for some DJ mixes.
+My website. Currently I'm using it as a base for some DJ mixes. However, since my domain is connected to my `username.github.io` repository, then any other repository that has a static site is available from this domain.
+
+> **Example** The URI [vapurrmaid.ca/sassy-nav-drawer](https://vapurrmaid.ca/sassy-nav-drawer) points to the static site hosted by my repository listed under the same name of [vapurrmaid/sassy-nav-drawer](https://github.com/vapurrmaid/sassy-nav-drawer)
 
 ## Who is Vapurrmaid
 
-Vapurrmaid is Gregory (Grey preferred) Barkans. They tend to keep away from most areas of the internet, but can be found at the following:
+Vapurrmaid is Gregory (Grey preferred) Barkans. They(/he/she) tend to keep away from most areas of the internet. Still, it's hard nor necessarily useful to be completely hidden as such, they can be found at the following locations:
 
-- [Bandcamp][6]
 - [Github @vapurrmaid][2]
 - [Medium @vapurrmaid][3]
+- [Bandcamp][6]
+- [LinkedIn][10]
 - Stack Overflow
   - [Profile][4]
   - [Developer Story][5]
@@ -16,11 +19,11 @@ Vapurrmaid is Gregory (Grey preferred) Barkans. They tend to keep away from most
 
 ## What is Vapurrmaid
 
-Vapurrmaid is the name that Grey adopted as an internet alias and DJ name. But also we're all each other and one, so Vapurrmaid is everything contextual to existence from Grey's perspective.
+Vapurrmaid is the name that Grey adopted as an internet alias and DJ name. It does not stem from a particular meaning, other than its contextually bound to Grey's perception of the world at the time in which it was conceived.
 
 ## When is Vapurrmaid
 
-Vapurrmaid was born in '91, but didn't surface until ~2015.
+Vapurrmaid was born in '91, but the name didn't surface until ~2015.
 
 ## Where is Vapurrmaid
 
@@ -28,17 +31,14 @@ Mostly Hamilton and Guelph, Ontario.
 
 ## Why is Vapurrmaid
 
-Vapurrmaid is a form of expression that makes sense for Grey on the dysmal space that is the interwebs.
+Vapurrmaid is a form of expression that makes/(made) most sense for Grey at the time of its conception.
 
 ## Vapurrmaid as DJ
 
 Vapurrmaid consumes a very wide variety of music. However, they primarly spin the following genres:
 
-- e.b.m
-- industrial
-- industrial techno
-- noise
-- techno
+- techno & body music
+- industrial & noise
 
 ### Select Mixes
 
@@ -50,11 +50,11 @@ Because Vapurrmaid steers clear of most interwebs (such as MixCloud, SoundCloud 
 
 ## Development Notes
 
-One day I might use flavour-of-the-week hipsterJS frameworks. But for now, I'm trying to keep things vanilla for fun.
+One day I might use the current flavour-of-the-week hipsterJS frameworks. But for now, I'm trying to keep things simple and steer clear of the type of development I use in everyday work life.
 
 ### Docker
 
-Building:
+To build, run the below command. Note that `-t` sets a tag, so different versions of this application can be built with their own tags.
 
 ```bash
 docker build -t vapurrmaidca .
@@ -66,7 +66,7 @@ Running:
 docker run --rm -it -P -v <YOUR PATH>:/usr/src/app vapurrmaidca
 ```
 
-All-In-One:
+All-In-One script that builds and runs a temporary instance:
 
 ```bash
 ./run.sh
@@ -88,3 +88,4 @@ npm run dev
 [7]: https://drive.google.com/open?id=1ykFdP0n53csS0DiuAo3AMqQgdrIQl5qc
 [8]: https://drive.google.com/open?id=1w3qQZrKMxIQqcdZvntN8eFdwW6YL6Hn4
 [9]: https://drive.google.com/file/d/1BPbp1RXr8nbBa2OwJPL0G2k6ygqIYPuL/view?usp=sharing
+[10]: https://www.linkedin.com/in/gregory-barkans-98ba86186/ 
