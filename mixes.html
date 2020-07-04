@@ -1,190 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
     <title>Vapurrmaid</title>
 
     <style>
-        .mixes-list {
-            list-style: none;
-        }
+      .mixes-list {
+        list-style: none;
+      }
 
-        .mix-box {
-            margin-bottom: 2rem;
-        }
+      .mix-box {
+        margin-bottom: 2rem;
+      }
 
+      .mix-card {
+        display: flex;
+        position: relative;
+        padding: 1rem;
+
+        border: 2px solid;
+      }
+
+      @media only screen and (max-width: 901px) {
         .mix-card {
-            display: flex;
-            position: relative;
-            padding: 1rem;
-
-            border: 2px solid;
+          flex-direction: column;
         }
+      }
 
-        @media only screen and (max-width: 901px) {
-            .mix-card {
-                flex-direction: column;
-            }
-        }
+      .mix-card--left {
+        width: 66%;
+        padding-right: 1rem;
+        border-right: 2px solid;
+      }
 
+      @media only screen and (max-width: 901px) {
         .mix-card--left {
-            width: 66%;
-            padding-right: 1rem;
-            border-right: 2px solid;
+          width: 100%;
+          padding-right: 0;
+          padding-bottom: 1rem;
+          border-right: none;
+          border-bottom: 2px solid;
         }
+      }
 
-        @media only screen and (max-width: 901px) {
-            .mix-card--left {
-                width: 100%;
-                padding-right: 0;
-                padding-bottom: 1rem;
-                border-right: none;
-                border-bottom: 2px solid;
-            }
-        }
+      .mix-card--right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1rem;
+      }
 
+      @media only screen and (max-width: 901px) {
         .mix-card--right {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-left: 1rem;
+          padding-left: 0;
+          padding-top: 1rem;
         }
+      }
 
-        @media only screen and (max-width: 901px) {
-            .mix-card--right {
-                padding-left: 0;
-                padding-top: 1rem;
-            }
-        }
-
-        .mix-card--right a {
-            color: rgb(60, 202, 32);
-            text-decoration: none;
-        }
+      .mix-card--right a {
+        color: rgb(60, 202, 32);
+        text-decoration: none;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header class="header">
-
-        <nav>
-            <a id="LogoHome" href="index.html">Vapurrmaid</a>
-        </nav>
-
+      <nav>
+        <a id="LogoHome" href="index.html">Vapurrmaid</a>
+      </nav>
     </header>
 
-
     <main class="container">
+      <h2 class="page-heading">Mixes</h2>
 
-        <h2 class="page-heading">Mixes</h2>
+      <div class="mixes">
+        <ul class="mixes-list">
+          <li class="mix-box">
+            <div class="mix-card">
+              <div class="mix-card--left">
+                <div>
+                  <span>Title: </span>
+                  <span class="white">CRL-40 950</span>
+                </div>
+                <div>
+                  <span>Date: </span>
+                  <span class="white">August 2018</span>
+                </div>
+                <div>
+                  <span>Location: </span>
+                  <span class="white">Live@Vapurrmaid HQ</span>
+                </div>
+                <div>
+                  <span class="white">Techno, e.b.m</span>
+                </div>
+              </div>
 
-        <div class="mixes">
+              <div class="mix-card--right">
+                <a
+                  href="https://drive.google.com/open?id=1ykFdP0n53csS0DiuAo3AMqQgdrIQl5qc"
+                >
+                  Download from Google Drive
+                </a>
+              </div>
+            </div>
+          </li>
 
-            <ul class="mixes-list">
+          <li class="mix-box">
+            <div class="mix-card">
+              <div class="mix-card--left">
+                <div>
+                  <span>Title: </span>
+                  <span class="white">CRL-40 949</span>
+                </div>
+                <div>
+                  <span>Date: </span>
+                  <span class="white">July 2018</span>
+                </div>
+                <div>
+                  <span>Location: </span>
+                  <span class="white">Live@Vapurrmaid HQ</span>
+                </div>
+                <div>
+                  <span class="white">Techno, Industrial</span>
+                </div>
+              </div>
 
-                <li class="mix-box">
-                    <div class="mix-card">
+              <div class="mix-card--right">
+                <a
+                  href="https://drive.google.com/open?id=1w3qQZrKMxIQqcdZvntN8eFdwW6YL6Hn4"
+                >
+                  Download from Google Drive
+                </a>
+              </div>
+            </div>
+          </li>
 
-                        <div class="mix-card--left">
-                            <div>
-                                <span>Title: </span>
-                                <span class="white">CRL-40 950</span>
-                            </div>
-                            <div>
-                                <span>Date: </span>
-                                <span class="white">August 2018</span>
-                            </div>
-                            <div>
-                                <span>Location: </span>
-                                <span class="white">Live@Vapurrmaid HQ</span>
-                            </div>
-                            <div>
-                                <span class="white">Techno, e.b.m</span>
-                            </div>
-                        </div>
+          <li class="mix-box">
+            <div class="mix-card">
+              <div class="mix-card--left">
+                <div>
+                  <span>Title: </span>
+                  <span class="white">05-30-2018</span>
+                </div>
+                <div>
+                  <span>Date: </span>
+                  <span class="white">May 2018</span>
+                </div>
+                <div>
+                  <span>Location: </span>
+                  <span class="white">Live@Vapurrmaid HQ</span>
+                </div>
+                <div>
+                  <span class="white">Noise, Industrial Techno</span>
+                </div>
+              </div>
 
-                        <div class="mix-card--right">
-                            <a href="https://drive.google.com/open?id=1ykFdP0n53csS0DiuAo3AMqQgdrIQl5qc">
-                                Download from Google Drive
-                            </a>
-                        </div>
-
-                    </div>
-                </li>
-
-                <li class="mix-box">
-                    <div class="mix-card">
-
-                        <div class="mix-card--left">
-                            <div>
-                                <span>Title: </span>
-                                <span class="white">CRL-40 949</span>
-                            </div>
-                            <div>
-                                <span>Date: </span>
-                                <span class="white">July 2018</span>
-                            </div>
-                            <div>
-                                <span>Location: </span>
-                                <span class="white">Live@Vapurrmaid HQ</span>
-                            </div>
-                            <div>
-                                <span class="white">Techno, Industrial</span>
-                            </div>
-                        </div>
-
-                        <div class="mix-card--right">
-                            <a href="https://drive.google.com/open?id=1w3qQZrKMxIQqcdZvntN8eFdwW6YL6Hn4">
-                                Download from Google Drive
-                            </a>
-                        </div>
-
-                    </div>
-                </li>
-
-                <li class="mix-box">
-                    <div class="mix-card">
-
-                        <div class="mix-card--left">
-                            <div>
-                                <span>Title: </span>
-                                <span class="white">05-30-2018</span>
-                            </div>
-                            <div>
-                                <span>Date: </span>
-                                <span class="white">May 2018</span>
-                            </div>
-                            <div>
-                                <span>Location: </span>
-                                <span class="white">Live@Vapurrmaid HQ</span>
-                            </div>
-                            <div>
-                                <span class="white">Noise, Industrial Techno</span>
-                            </div>
-                        </div>
-
-                        <div class="mix-card--right">
-                            <a
-                                href="https://drive.google.com/file/d/1BPbp1RXr8nbBa2OwJPL0G2k6ygqIYPuL/view?usp=sharing">
-                                Download from Google Drive
-                            </a>
-                        </div>
-
-                    </div>
-                </li>
-
-            </ul>
-
-        </div>
-
+              <div class="mix-card--right">
+                <a
+                  href="https://drive.google.com/file/d/1BPbp1RXr8nbBa2OwJPL0G2k6ygqIYPuL/view?usp=sharing"
+                >
+                  Download from Google Drive
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>
